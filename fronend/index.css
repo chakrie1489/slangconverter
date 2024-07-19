@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.nav_bar {
+    background-color: #393e46;
+    height: 70px;
+    flex: 0, 1, 70px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_bar p {
+    text-align: center;
+    margin: 0;
+    padding-top: 5px;
+    color: #f2f2f2;
+    font-size: 40px;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.content {
+    height: 100%;
+    flex: 1, 1, auto;
+    background-color: #222831;
+}
+
+.footer {
+    background-color: #393e46;
+    height: 40px;
+    flex: 0, 0, 40px;
+}
+
+.footer p {
+    text-align: center;
+    color: #f2f2f2;
+    padding-top: 7px;
+    margin: 0;
+}
